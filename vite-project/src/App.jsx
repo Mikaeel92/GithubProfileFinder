@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
+import Card from './Card'
 
 const App = () => {
 
   const [userData, setUserData] = useState([])
-  const [input, setInput] = useState('hoomantalakian')
+  const [input, setInput] = useState('mikaeel92')
   const [loading, setLoading] = useState(false)
   const [errorMsg, setErrorMsg] = useState(null)
 
